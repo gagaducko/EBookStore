@@ -1,0 +1,41 @@
+.navBar {
+  background-color: #001529;
+  width: 100% ;
+  height: 8vh;
+}
+
+.navBar .title img{
+    padding-left: 0px;
+    height: 100%;
+    width: auto;
+    margin: 4px 0px 8px;
+}
+
+.ant-layout-header {
+  padding: 0px 0px 0px 22px !important;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 64px;
+  background: #001529;
+  height:8vh;
+}
+
+.site-layout-background{
+  min-height: 700px;
+}
+
+#components-layout-demo-top-side-2 .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+
+#siderNav{
+  height:100%;
+  background: #001529 !important;
+}
+
+#navBarMenu{
+  height: 92vh;
+}

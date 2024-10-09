@@ -1,0 +1,109 @@
+
+.cart-header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #3b93f7;
+}
+
+.cart-title {
+    font-size: 28px;
+    color: #424242;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.cart-subtitle {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #757575;
+}
+.cart-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.cart-info {
+    font-size: 30px;
+    font-weight: 500;
+    color: #424242;
+}
+.cart-image {
+    width: 50px;
+    height: 50px;
+}
+.cart-table {
+    width: 75vw;
+}
+.cart-footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cart-goback {
+    height: 60px;
+    padding: 0 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #757575;
+    cursor: pointer;
+}
+.cart-goback:hover {
+    color: #3b93f7;
+}
+.cart-descnum {
+    height: 60px;
+    padding: 0 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #757575;
+}
+.cart-totalnum {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3b93f7;
+    margin: 0 5px;
+}
+.cart-submit {
+    height: 60px;
+    padding: 0 50px;
+    /* margin-left: auto; */
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #3b93f7;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.cart-submit:hover {
+    background-color: #6caef9;
+}
+
+.cart-totalmoney {
+    height: 60px;
+    padding: 0 30px;
+    margin: 0;
+    margin-left: auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #757575;
+}
